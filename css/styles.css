@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+
+#container {
+  width: 100%;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/***HEADER***/
+header {
+  height: 120vh;
+  background: url("https://www.fattiretours.com/uploads/842/Day-Segway-Hero%20Mobile@2x.jpg")
+    top center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  position: relative;
+  height: 600px;
+}
+
+header h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
