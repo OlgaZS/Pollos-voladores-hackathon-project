@@ -17,7 +17,7 @@ img {
 /***HEADER***/
 header {
   height: 120vh;
-  background: url("../img/hero-bg.png") top center no-repeat;
+  background: url("../img/hero-bg.jpg") top center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
