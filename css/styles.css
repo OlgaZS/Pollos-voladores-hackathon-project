@@ -75,13 +75,11 @@ button {
   align-items: baseline;
   padding: 2em;
   display: flex;
-  flex-flow: flow wrap;
 }
 
 .card {
   width: 20%;
   flex-direction: column;
-  border: rgb(0, 225, 255) solid 1px;
   flex-grow: 1;
 }
 
@@ -98,6 +96,30 @@ button {
   font-weight: 800;
 }
 
-.icon {
+.icon img {
   height: 100px;
+}
+
+.icon {
+  background-color: #dbd5d1;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.footer {
+  background-color: #f86032;
+  color: #ffffff;
+  text-align: center;
+  height: 80px;
+  padding: 2em;
+}
+
+.footer p {
+  font-size: 1.2em;
 }
