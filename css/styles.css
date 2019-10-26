@@ -69,3 +69,35 @@ button {
   height: 56px;
   color: #ffffff;
 }
+/***Cards***/
+.cards-container {
+  text-align: center;
+  align-items: baseline;
+  padding: 2em;
+  display: flex;
+  flex-flow: flow wrap;
+}
+
+.card {
+  width: 20%;
+  flex-direction: column;
+  border: rgb(0, 225, 255) solid 1px;
+  flex-grow: 1;
+}
+
+.card + .card {
+  margin-left: 5%;
+}
+
+.cards-container p {
+  font-size: 1em;
+}
+
+.cards-container h3 {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.icon {
+  height: 100px;
+}
