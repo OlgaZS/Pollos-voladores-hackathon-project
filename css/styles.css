@@ -34,9 +34,8 @@ header h1 {
 /***Cards***/
 .cards-container {
   text-align: center;
-  align-items: center;
+  align-items: baseline;
   padding: 2em;
-  border: red solid 1px;
   display: flex;
   flex-flow: flow wrap;
 }
