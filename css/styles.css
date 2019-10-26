@@ -31,3 +31,32 @@ header h1 {
   font-size: 2em;
   font-weight: bold;
 }
+/***Cards***/
+.cards-container {
+  text-align: center;
+  align-items: center;
+  padding: 2em;
+  border: red solid 1px;
+  display: flex;
+  flex-flow: flow wrap;
+}
+
+.card {
+  width: 20%;
+  flex-direction: column;
+  border: rgb(0, 225, 255) solid 1px;
+  flex-grow: 1;
+}
+
+.card + .card {
+  margin-left: 5%;
+}
+
+.cards-container p {
+  font-size: 1em;
+}
+
+.cards-container h3 {
+  font-size: 1.4em;
+  font-weight: 800;
+}
