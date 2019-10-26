@@ -7,6 +7,7 @@
 #container {
   width: 100%;
   font-size: 1rem;
+  font-family: "Work Sans", sans-serif;
 }
 
 img {
@@ -16,18 +17,54 @@ img {
 /***HEADER***/
 header {
   height: 120vh;
-  background: url("https://www.fattiretours.com/uploads/842/Day-Segway-Hero%20Mobile@2x.jpg")
-    top center no-repeat;
+  background: url("../img/hero-bg.png") top center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   padding: 2em;
   position: relative;
-  height: 600px;
+  height: 650px;
 }
 
-header h1 {
-  font-family: "Work Sans", sans-serif;
-  font-size: 2em;
-  font-weight: bold;
+.hero-content {
+  width: 45%;
+  margin: 2em 0 2em 0;
+}
+
+.hero-content h1 {
+  font-weight: 900;
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 0.4em;
+}
+
+.hero-content h4 {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-top: 0em;
+}
+
+/***FORM***/
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+input {
+  height: 56px;
+  border-radius: 25px;
+  box-shadow: none;
+  border: 0;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+button {
+  border-radius: 25px;
+  background-color: #000000;
+  border: 0px;
+  box-shadow: none;
+  color: #ffffff;
+  height: 56px;
 }
